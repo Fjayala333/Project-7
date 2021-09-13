@@ -1,0 +1,26 @@
+.button-primary,
+.button-disabled {
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    color: $color-white;
+    border-radius: 8px;
+    border: 2px solid $color-grayborder;
+}
+.button-primary {
+    background-color: $color-main;
+    &:active {
+        background-color: $color-highlight;
+    }
+}
+.button-disabled {
+    background-color: $color-btngray;
+    &:active {
+        background-color: $color-highlight;
+    }
+}
+.settings-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}

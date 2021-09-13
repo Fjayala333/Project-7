@@ -1,0 +1,43 @@
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.social-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $color-grayfill;
+    border: 1px solid $color-grayborder;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 5px;
+    margin: 10px 0;
+}
+.social-image {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin: 5px 20px;
+    background-color: $color-main;
+    border-radius: 50%;
+}
+.social-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.social-text p {
+    display: inline-block;
+    margin: 0;
+    color: $color-main;
+    font-size: 1.5em;
+}
+.social-text .number {
+    font-size: 3em;
+    color: $color-btngray;
+}

@@ -3,7 +3,7 @@ body {
 }
 .header {
     width: 100%;
-    height: 55px;
+    height: 75px;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -21,10 +21,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 180px;
+    width: 150px;
 }
 
-.message-container {
+.display-message-container {
     display: flex;
     position: relative;
     justify-content: center;
@@ -36,14 +36,14 @@ body {
 #notifications {
     border-radius: 45%;
     background-color: limegreen;
-    width: 4px;
-    height: 4px;
+    width: 5px;
+    height: 5px;
     position: absolute;
-    top: -5px;
-    left: 15px;
+    top: -3px;
+    left:22px;
 }
 .messages {
-    positon: absolute;
+    position: absolute;
     display: none;
     min-width: 300px;
     top: 40px;
@@ -71,7 +71,7 @@ body {
 .transition-wrap
 {
     position: relative;
-    transition: 500ms ease-in-out;
+    transition: 2s ease-in-out;
 }
 
 .transition-wrap:hover{

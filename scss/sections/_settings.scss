@@ -1,0 +1,30 @@
+.widget-container,
+.settings {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+.form-field,
+.form-area {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: $color-grayfill;
+    border-radius: 5px;
+    border-color: $color-grayborder;
+    &::placeholder{
+        color: $color-grayborder;
+        font-size: 1.25em;
+    }
+    &:focus{
+        border: 2px solid $color-main;
+        border-radius: 5px;
+    }
+}
+.form-field {
+    height: 50px;
+}
+.form-area {
+    height: 130px;
+}
