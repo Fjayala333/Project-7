@@ -27,17 +27,17 @@
 
 //Alert
 .alert{
-    min-width: 97%;
-    margin: 25px auto 0 auto;
+    min-width: 90%;
+    margin: 15px;
     cursor: pointer;
  
 }
 
 .alert-banner {
-    min-height: 40px;
-    border-radius: 10px;
+    min-height: 45px;
+    border-radius: 7px;
     margin: auto;
-    padding: 0 5px;
+    font-size: 1.4em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
