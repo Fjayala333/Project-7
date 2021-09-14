@@ -28,3 +28,66 @@
 .form-area {
     height: 130px;
 }
+
+// Toggles
+.toggles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px;
+}
+.user-option {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+label {
+    background-color: $color-main;
+    width: 95px;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px solid $color-grayborder;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    height: 0;
+    width: 95px;
+    background-color: $color-main;
+    border-radius: 28px;
+    transition: .3s;
+    border: 2px solid $color-grayborder;
+}
+input:checked[type="checkbox"] {
+    background-color: $color-main;
+}
+input[type="checkbox"]::before {
+    content: '';
+    position: relative;
+    left: 57px;
+    top: -7px;
+    padding: 3px 11px;
+    outline: none;
+    border-radius: 40px;
+    background-color: $color-white;
+    border: 3px solid $color-grayborder;
+    transform: scale(1.1);
+    transition: .5s;
+    z-index: 1;
+}
+#email, #public {
+    display: flex;
+}
+.on,
+.off {
+    position: relative;
+    top: -13px;
+}
+.on {
+    left: 9px;
+    color: $color-white;
+}
+.off {
+    left: 37px;
+}
