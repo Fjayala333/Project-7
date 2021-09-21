@@ -33,6 +33,7 @@
 .toggles {
     display: flex;
     flex-direction: row;
+    flex-basis: 50px;
     justify-content: space-between;
     align-items: center;
     margin: 20px 5px;
@@ -44,10 +45,15 @@
 }
 label {
     background-color: $color-main;
+
     width: 95px;
     height: 35px;
     border-radius: 30px;
     border: 2px solid $color-grayborder;
+}
+
+.public {
+    margin-left: 73px;
 }
 
 input[type="checkbox"] {
@@ -76,9 +82,11 @@ input[type="checkbox"]::before {
     transition: .5s;
     z-index: 1;
 }
-#email, #public {
+#public {
     display: flex;
+    flex-basis: 50%;
 }
+
 .on,
 .off {
     position: relative;
