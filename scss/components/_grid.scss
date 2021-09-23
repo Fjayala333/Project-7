@@ -78,6 +78,8 @@
     .socials {
         display: flex;
         flex-direction: row;
+        width: 80%;
+        height: 110px;
         & .social-card {
             margin: 10px 5px;
         }
@@ -101,6 +103,17 @@
     .members-container {
         display: flex;
         flex-direction: row;
+    } & p {
+        margin: 0;
+    }
+    .members-text {
+        display: flex;
+        justify-content: space-between;
+    }
+    a {
+    position: relative;
+    top: 18px;
+    left: -34%;
     }
 
 }
