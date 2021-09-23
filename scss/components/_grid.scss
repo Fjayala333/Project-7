@@ -89,10 +89,18 @@
     .sections {
         padding: 0 2px;
     }
+    h4 {
+        margin-inline-start: 0.3em;
+    }
+    .toggle-title {
+        margin: 0 5px;
+    }
+    label {
+        margin: 0 10px;
+    }
     .members-container {
         display: flex;
         flex-direction: row;
-        
     }
 
 }

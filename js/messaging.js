@@ -1,5 +1,5 @@
-const user = document.getElementById("user-field");
-const message = document.getElementById("message-field");
+const user = document.getElementById("userfield");
+const message = document.getElementById("messagefield");
 const send = document.getElementById("send");
 
 send.addEventListener('click', () => {
