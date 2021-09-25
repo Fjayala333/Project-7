@@ -82,7 +82,7 @@
     .recent-activity h3 {
         margin: 5px;
     }
-    
+
     h4 {
         margin-inline-start: 0.3em;
     }
@@ -105,14 +105,46 @@
         align-items: center;
         justify-items: start;
     }
-    .date {
-        position: absolute;
-        right: 30px;
-    }
     .more-info {
+        display: inline;
         color: $color-main;
         padding-right: 15px;
         font-weight: bold;
     }
 
+}
+
+@media (min-width: 1024px) {
+    .header h1 {
+        margin-left: 20px;
+    }
+    .right-side {
+        margin-right: 20px;
+    }
+    #traffic-chart {
+        height: 200px;
+        width: 95%;
+    }
+    .socials {
+        width: 100%;
+        & .social-card {
+            width: 100%;
+        }
+    }
+    .new-members,
+    .message-user {
+        grid-column: 1 / span 1;
+    }
+
+    .recent-activity,
+    .settings{
+        grid-column: 2 / span 1;
+    }
+    .new-members,
+    .message-user {
+        border-right: 1px solid $color-grayborder;
+    }
+    .toggles {
+        margin: 7px 5px;
+    }
 }
