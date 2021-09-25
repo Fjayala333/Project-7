@@ -1,0 +1,112 @@
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: 55px 1fr;
+        grid-template-areas:
+            "header header"
+            "navigation main"
+    }
+
+    .navigation {
+        height: 100%;
+    }
+
+    .nav-icons {
+        height: 300px;
+        width: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+    
+    .main {
+        display: grid;
+        grid-template-columns: 50%;
+    }
+
+    .dashboard,
+    .alert,
+    .traffic,
+    .social-stats,
+    .new-members,
+    .recent-activity,
+    .message-user,
+    .settings {
+        grid-column: 1 / span 2;
+    }
+
+    .daily-traffic {
+        grid-column: 1 / span 1;
+        border-right: 1px solid $color-grayborder;
+    }
+
+    .mobile-users{
+        grid-column: 2 / span 1;
+    }
+
+    .traffic-nav-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    .traffic-options{
+        flex-basis: 10%;
+        margin: 5px;
+    }
+    .socials {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 110px;
+        & .social-card {
+            margin: 10px 5px;
+            width: 225px;
+            height: 90px;
+        & .social-image {
+            height: 50px;
+            width: 70px;
+                }
+        & svg {
+            width: 30px;
+            }
+        }
+    }
+
+    .settings-buttons {
+        width: 100%;
+    }
+    .sections {
+        padding: 0 2px;
+    }
+    h4 {
+        margin-inline-start: 0.3em;
+    }
+    .toggle-title {
+        margin: 0 5px;
+    }
+    label {
+        margin: 0 10px;
+    }
+    .members-container {
+        display: flex;
+        flex-direction: row;
+    } & p {
+        margin: 0;
+    }
+    .members-text {
+        display: grid;
+        justify-content: start;
+        align-content: center;
+        align-items: center;
+        justify-items: start;
+    }
+    .date {
+        position: absolute;
+        right: 30px;
+    }
+    .more-info {
+        color: $color-main;
+        padding-right: 15px;
+        font-weight: bold;
+    }
+
+}
