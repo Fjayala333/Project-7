@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" />
     <title>Web App</title>
 </head>
 <body class="grid-container">
@@ -241,19 +242,25 @@
                 <div class="user-option">
                     <div class="toggles">
                         <h4 class ="toggle-title">Send Email Notifications</h4>
-                        <label for="email">
-                            <input type="checkbox" id="emailToggle">
-                            <span class="on">On</span>
-                            <span class="off">Off</span>
-                        </label>
+                        <label class="switch-light switch-candy" onclick="">
+                            <input type="checkbox">
+                            <span>
+                              <span>Off</span>
+                              <span>On</span>
+                              <a></a>
+                            </span>
+                          </label>
                     </div>
                     <div class="toggles">
                         <h4 class ="toggle-title">Set Profile to Public</h4>
-                        <label class="public" for="public">
-                            <input type="checkbox" id ="publicToggle">
-                            <span class="on">On</span>
-                            <span class="off">Off</span>
-                        </label>
+                        <label class="switch-light switch-candy" onclick="">
+                            <input type="checkbox">
+                             <span>
+                              <span>Off</span>
+                              <span>On</span>
+                              <a></a>
+                            </span>
+                          </label>
                     </div>
             </div>
             <select class="form-field" id="timezone">

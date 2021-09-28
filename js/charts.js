@@ -46,7 +46,7 @@ let trafficDataWeekly = {
 let trafficDataMonthly = {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
-        data: [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500, 2500], 
+        data: [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500, 2500, 1000], 
         backgroundColor: 'rgba(116, 119, 191, .3)',
         borderWidth: 1,
     }]
