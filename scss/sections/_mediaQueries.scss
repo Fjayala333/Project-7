@@ -5,6 +5,13 @@
             "header header"
             "navigation main"
     }
+    header h1 {
+        margin-left: 20px;
+    }
+    .right-side {
+        margin-right: 20px;
+    }
+
 
     .navigation {
         height: 100%;
@@ -62,8 +69,8 @@
             width: 225px;
             height: 90px;
         & .social-image {
-            height: 50px;
-            width: 70px;
+            height: 40px;
+            width: 80px;
                 }
         & svg {
             width: 30px;
@@ -130,8 +137,13 @@
         width: 100%;
         & .social-card {
             width: 100%;
+        & .social-image {
+            width: 70px;
+            height: 70px;
+        }
         }
     }
+    
     .new-members,
     .message-user {
         grid-column: 1 / span 1;
