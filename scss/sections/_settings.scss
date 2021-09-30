@@ -42,7 +42,10 @@
     flex-direction: column;
     margin-bottom: 15px;
 }
-label {
+
+label .switch-light,
+.switch-ios {
+    margin: 0;
     background-color: $color-main;
     width: 95px;
     height: 35px;
@@ -96,4 +99,11 @@ input[type="checkbox"]::before {
 }
 .off {
     left: 37px;
+}
+.switch-ios.switch-light input:checked ~ span {
+    background-color: $color-main;
+    border-color: $color-main;
+}
+.switch-ios.switch-light > span {
+    background-color: $color-main;
 }

@@ -82,15 +82,16 @@
     .recent-activity h3 {
         margin: 5px;
     }
-
-    h4 {
-        margin-inline-start: 0.3em;
+    .toggles {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        align-items: center;
+        margin: 20px 5px;
     }
-    .toggle-title {
-        margin: 0 5px;
-    }
+    
     label {
-        margin: 0 10px;
+        margin: 0;
     }
     .members-container {
         display: flex;
@@ -146,5 +147,6 @@
     }
     .toggles {
         margin: 7px 5px;
+        width: 70%;
     }
 }
